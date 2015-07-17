@@ -35,9 +35,11 @@
         <div class="container">
           <div collection-repeat="bite in soundbites"
             class="soundbite $index"
-              ng-click="playSound($index)">{{bite}}
+              ng-click="playSound($index)">{{bite.name}}
               <i class="icon ion-volume-high"></i>
-              <audio ng-src="{{bite}}" type="audio/mpeg">
+
+              <audio ng-src="{{bite.file}}" type="audio/mpeg">
+
               </audio>
           </div>
         </div>
