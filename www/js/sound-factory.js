@@ -8,7 +8,7 @@ angular.module('sound.factory', [])
     },
     {
       name : 'Help me, Tom Cruise!',
-      file : './sounds/Help-me-Tom-Cruise%20.mp3',
+      file : './sounds/Help-me-Tom-Cruise.mp3',
       img: './img/rickybobby2.jpg'
     },
     {
