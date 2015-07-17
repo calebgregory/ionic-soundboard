@@ -7,7 +7,16 @@
 
 .soundbite {
   min-width: 50px;
-  height: 120px;
-  margin: 0.3333px;
-  border: 2px solid gray;
+  height: 250px;
+  margin: /*0.3333px*/auto;
+/*border: 2px solid gray;*/
 }
+
+.wrapper {
+  text-align: center;
+  padding: 10px;
+}
+img {
+  margin: 10px;
+}
+  
